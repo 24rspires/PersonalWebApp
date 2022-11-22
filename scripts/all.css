@@ -1,7 +1,10 @@
-body {
+body,
+html {
 	min-width: 100vw;
 	min-height: 100vh;
 	background-color: #2c2c44;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar a {

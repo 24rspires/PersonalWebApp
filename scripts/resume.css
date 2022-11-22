@@ -1,0 +1,12 @@
+.fluid-container {
+	height: 100vh;
+}
+
+main {
+	height: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
