@@ -12,10 +12,6 @@ ext.on("click", show);
 hob.on("click", show);
 ref.on("click", show);
 
-$(document).ready(() => {
-	alert("Click each header for more information!");
-});
-
 function show() {
 	$(this).css("flex-direction", "column");
 	$(this).children("ul, ol").children().children("ul, ol").show();
