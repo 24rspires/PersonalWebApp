@@ -4,7 +4,7 @@ body {
 	background-color: #2c2c44;
 }
 
-a {
+.navbar a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -26,21 +26,21 @@ a {
 	justify-content: space-evenly;
 }
 
-.selected {
+.navbar .selected {
 	background-color: #b18fcf;
 	border: 1px solid #b18fcf;
 	color: white;
 }
 
-a:hover,
+.navbar a:hover,
 .selected:hover {
 	text-decoration: none;
 }
 
-a:hover {
+.navbar a:hover {
 	color: #d8d8f6;
 }
 
-.selected:hover {
+.navbar .selected:hover {
 	color: white;
 }

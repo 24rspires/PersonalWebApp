@@ -1,0 +1,27 @@
+img {
+	width: 33%;
+	margin-left: 10%;
+	margin-top: 5%;
+	display: inline;
+}
+
+#intro-text {
+	color: #d8d8f6;
+	float: left;
+	margin-top: 4.5%;
+	margin-left: 5%;
+	top: 20%;
+	margin-right: 0px;
+	width: 33%;
+}
+
+#intro-text h3,
+#intro-text p {
+	width: 106%;
+	padding-left: 5%;
+}
+
+#intro-text a {
+	color: #b18fcf;
+	text-decoration: underline;
+}
