@@ -23,5 +23,9 @@ img {
 
 #intro-text a {
 	color: #b18fcf;
+	text-decoration: none;
+}
+
+#intro-text a:hover {
 	text-decoration: underline;
 }
