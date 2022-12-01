@@ -18,6 +18,7 @@ html {
 	background-color: #978897;
 	padding: 5px;
 	margin: 5px;
+	max-width: fit-content;
 }
 
 .navbar {
@@ -26,6 +27,7 @@ html {
 	margin: 0px;
 	background-color: #494850;
 	display: flex;
+	align-items: center;
 	justify-content: space-evenly;
 }
 
@@ -46,4 +48,8 @@ html {
 
 .navbar .selected:hover {
 	color: white;
+}
+
+.navbar .row {
+	width: 100vw;
 }
